@@ -15,7 +15,6 @@ class returnTotalSum {
         // int sum2 = getSum(a, b);
         // int sum3 = getSum(n1, n2);
 
-        
         System.out.println("total sum is :" + (getSum(4, 5) + getSum(a, b) + getSum(n1, n2)));
 
     }
