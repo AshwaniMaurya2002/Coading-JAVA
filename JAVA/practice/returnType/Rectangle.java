@@ -24,10 +24,8 @@ public class Rectangle {
     public static void main(String[] args) {
         setValue(12, 31);
         System.out.println(getValue());
-        System.out.println("The Perimeter is :- "
-                + getPerimeter());
-        System.out.println("The Area is :- "
-                + getArea());
+        System.out.println("The Perimeter is :- " + getPerimeter());
+        System.out.println("The Area is :- " + getArea());
 
     }
 
