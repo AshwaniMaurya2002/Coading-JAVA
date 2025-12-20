@@ -1,21 +1,27 @@
 
- class Fruit {
+class Fruit {
+    int price;
+    double weight;
+    
 
-     static  int price;
+    public void setValues( int p, double w) {
+        price = p;
+        weight = w;
 
-    public static  void printPrice(Fruit a,int val){
-        a.price=val;
     }
-    public static  void printDetails(){
-        System.out.println("The value of Price :" + price);
+
+    public void getValues() {
+
+        System.out.println("The Price is : " + price + "\n The weight is : " + weight);
+
     }
-
-
 
     public static void main(String[] args) {
-        Fruit f=new Fruit();
-        printPrice(f,400);
-        printDetails();
+        Fruit f = new Fruit();
+        f.setValues( 12, 543);
+        f.price=32;
+        f.getValues();
+
     }
-    
+
 }
