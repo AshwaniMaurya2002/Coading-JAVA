@@ -3,24 +3,17 @@ import java.util.Scanner;
 
 class ScannerClass {
 
-    public class ScannerInputExample {
-        public static void main(String[] args) {
-            Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-            System.out.print("Enter your age: ");
-            int age = sc.nextInt(); // reads only the number
+        // gives Error it skips nextLine
+        System.out.println("ENTER A NUMBER");
+        int num = sc.nextInt();
+        System.out.println("The number is: " + num);
 
-            sc.nextLine(); // consume leftover newline
-
-            System.out.print("Enter your full name: ");
-            String name = sc.nextLine(); // now reads actual line input
-
-            System.out.println("Output:");
-            System.out.println("Age: " + age);
-            System.out.println("Name: " + name);
-
-            sc.close(); // close Scanner
-        }
+        System.out.println("ENTER A STRING");
+        String str = sc.nextLine();
+        System.out.println("the Entered String IS" + str);
     }
 
 }
