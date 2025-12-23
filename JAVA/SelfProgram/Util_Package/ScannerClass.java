@@ -12,8 +12,9 @@ class ScannerClass {
         System.out.println("The number is: " + num);
 
         System.out.println("ENTER A STRING");
+        sc.nextLine(); // to consume the leftover newline character
         String str = sc.nextLine();
-        System.out.println("the Entered String IS" + str);
+        System.out.println("the Entered String IS: " + str);
     }
 
 }
