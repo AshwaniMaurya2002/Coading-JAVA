@@ -1,21 +1,18 @@
 
-
 public class practice {
+     int price;
 
-    String name;
-    int price;
-    double hp;
-
-    practice(String n, int p, double h) {
-        name = n;
-        price = p;
-        hp = h;
+    public  void setDetails(practice p,int n){
+        p.price=n;
     }
 
-    public void getDetails() {
-        System.out.println(name);
-        System.out.println(price);
-        System.out.println(hp);
+    
+
+    public static void main(String[] args) {
+        practice obj = new practice();
+        obj.price=300;
+        obj.setDetails(obj, 1000);
+        System.out.println(obj.price);
     }
 
 }
