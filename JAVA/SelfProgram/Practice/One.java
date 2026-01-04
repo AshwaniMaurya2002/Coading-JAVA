@@ -4,6 +4,8 @@ class One{
  int price;
 
 
+
+
 public void setDetails(String n,int p){
 name=n;
 price=p;

@@ -1,10 +1,8 @@
 
 public class Try {
-    /**
-     * @param args
-     */
     public static void main(String[] args) {
-        
-        System.out.println(Math.PI);
+        int x=10;
+
+        System.out.println("HELLO PRINT any Number");
     }
 }
