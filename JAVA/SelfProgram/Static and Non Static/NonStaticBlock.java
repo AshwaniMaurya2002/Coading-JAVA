@@ -1,6 +1,6 @@
 
 public class NonStaticBlock {
-     int count = 0;
+    static  int count = 0;
 
     {
         System.out.println("i am the non static block");
