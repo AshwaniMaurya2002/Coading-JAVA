@@ -31,7 +31,7 @@ public class Q43 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         printPattern(n);
-
+        sc.close();
     }
 
 }
