@@ -10,9 +10,9 @@ public class Driver {
             System.out.println(b.a);
             System.out.println(b.x);
         }
-        // else if(v instanceof Car){
-        //     Car c=(Car)v;
-        // }
+        else if(v instanceof Car){
+            Car c=(Car)v;
+        }
 
         else if(v instanceof Bike)
         {
