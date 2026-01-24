@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q59{
+public class Q67{
 
     public static void printPattern(int n) {
         // calculate no of iterations
