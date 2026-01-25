@@ -1,15 +1,16 @@
 import java.util.Scanner;
 
-public class Q78 {
+public class Q79 {
 
     public static void printPattern(int n) {
 
         int space = n - 1;
         int patternWidth = 1;
 
+        
         for (int i = 1; i <= n; i++) {
 
-            int num = n - i + 1;              // reset number for each row
+                 int num = i;        // jis row pr h usi row se start hoga
             int mid = (patternWidth / 2) + 1; // calculate mid per row
 
             // spaces
@@ -22,12 +23,12 @@ public class Q78 {
                 System.out.print(num + " ");
 
                 if (j < mid) {
-                    num++;
-                } else {
                     num--;
+                } else {
+                    num++;
                 }
             }
-
+            
             space--;
             patternWidth += 2;
             System.out.println();

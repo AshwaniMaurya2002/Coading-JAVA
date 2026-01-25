@@ -5,7 +5,7 @@ public class Validparanthesis {
 
      static  Stack<Character> s=new Stack<>();
 
-    public static  boolean  valid(String str){
+    public static  boolean  valid(String str){ 
 
         for (int i = 0; i <str.length(); i++) {
 
