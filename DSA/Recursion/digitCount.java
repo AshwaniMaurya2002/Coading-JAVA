@@ -7,9 +7,6 @@ public class digitCount  {
             
 
         }
-
-
-        
         
         printDigit(n/10);
         count++;
