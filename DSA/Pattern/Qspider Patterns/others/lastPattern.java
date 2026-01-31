@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class lastPattern {
 
     public static void printPatter(int n){
@@ -35,7 +37,9 @@ public class lastPattern {
 
 
     public static void main(String[] args) {
-        printPatter(7);
+        Scanner sc =new Scanner(System.in);
+        int n=sc.nextInt();
+        printPatter(n);
     }
     
 }
