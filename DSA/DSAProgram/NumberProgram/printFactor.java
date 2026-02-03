@@ -14,7 +14,6 @@ int count=0;
                     System.out.print(fact1 +" "+ fact2);
                     count+=2;
                 }
-
                 else{
                     System.out.print(fact1+" ");
                     count++;
