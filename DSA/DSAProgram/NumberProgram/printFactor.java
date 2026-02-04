@@ -1,10 +1,6 @@
-
 import java.util.Scanner;
-
 public class printFactor {
-
-    public static void printFactorAll(int n){
-        
+    public static void printFactorAll(int n){ 
 int count=0;
         for (int i = 1; i*i < n; i++) {
             if(n%i==0){
@@ -32,3 +28,10 @@ int count=0;
     }
     
 }
+
+
+
+
+
+
+
