@@ -5,7 +5,7 @@ public class Driver {
         
 
         Student a=new Ashwani();
-        // Ashwani as=(Ashwani)a;
+        Ashwani as=(Ashwani)a;
         System.out.println(((Ashwani)a).getName());
     }
     
