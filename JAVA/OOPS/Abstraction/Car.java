@@ -5,12 +5,12 @@ public abstract  class Car {
     double hp;
 
 
-    public static void engine(){
+    public  void engine(){
         System.out.println("car has a engine");
     }
 
 
-    public abstract void start();
+    public abstract  void start();
 
     
 }
