@@ -8,10 +8,11 @@ public class Student {
         try {
 
             int i=10/0;
+                        System.out.println(i);
+
 
             int arr[]={1,2,3};
             System.out.println(arr[5]);
-            System.out.println(i);
             
         } catch (ArithmeticException e) {
             System.out.println("not divisible");
