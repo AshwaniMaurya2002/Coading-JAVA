@@ -9,7 +9,6 @@ public class Bank {
         this.balance = balance;
         this.accNumber = accNumber;
     }
-
     public int getBalance() {
         return balance;
     }
