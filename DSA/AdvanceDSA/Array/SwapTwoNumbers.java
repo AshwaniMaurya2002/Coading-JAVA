@@ -15,5 +15,4 @@ public class SwapTwoNumbers {
         swap(a, i, j);
         System.out.println(Arrays.toString(a));
     }
-    
 }
