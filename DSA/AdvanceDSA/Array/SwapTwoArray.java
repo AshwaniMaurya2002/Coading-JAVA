@@ -9,9 +9,7 @@ public static void swap(int[] a ,int[] b )
     a=b;
     b=temp;
 }
-
 public static void main(String[] args) {
-    
 
     int[] a={10,20,30,40,50};
     int[] b={8,7,6,5,4,3,2,1};
