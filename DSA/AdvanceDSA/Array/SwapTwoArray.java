@@ -1,6 +1,5 @@
 
 import java.util.Arrays;
-
 public class SwapTwoArray {
 
 public static void swap(int[] a ,int[] b )
