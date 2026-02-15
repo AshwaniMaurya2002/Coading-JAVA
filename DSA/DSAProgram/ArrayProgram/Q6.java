@@ -18,7 +18,6 @@ public class Q6 {
 
         System.out.println("The new Array is"+ Arrays.toString(a));
 
-
     }
 
     public static void main(String[] args) {
