@@ -2,8 +2,6 @@
 import java.util.Arrays;
 
 public class Q6 {
-
-
     public  static  void getSum(int[] a){
         int sum=0;
         for(int s:a){
