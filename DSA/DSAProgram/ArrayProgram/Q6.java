@@ -13,7 +13,6 @@ public class Q6 {
         for(int i=0;i<a.length;i++){
             a[i]=sum-a[i];
         }
-
         System.out.println("The new Array is"+ Arrays.toString(a));
 
     }
