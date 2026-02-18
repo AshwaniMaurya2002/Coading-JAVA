@@ -12,7 +12,6 @@ public class FacebookUserDriver {
 
         user.setAge(15);
         System.out.println("Updated Age: " + user.getAge());
-
         user.setAge(10);
     }
 }
