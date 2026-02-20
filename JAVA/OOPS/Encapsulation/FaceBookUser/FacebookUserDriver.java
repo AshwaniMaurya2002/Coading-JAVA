@@ -9,7 +9,6 @@ public class FacebookUserDriver {
 
         user.setEmail("john_new@example.com");
         System.out.println("Updated Email: " + user.getEmail());
-
         user.setAge(15);
         System.out.println("Updated Age: " + user.getAge());
         user.setAge(10);
