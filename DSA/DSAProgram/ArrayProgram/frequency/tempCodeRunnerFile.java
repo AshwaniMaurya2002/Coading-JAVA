@@ -1,0 +1,1 @@
+int[] freq=new int[max-min+1];

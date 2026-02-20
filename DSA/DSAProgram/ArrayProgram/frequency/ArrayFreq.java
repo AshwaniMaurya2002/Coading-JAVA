@@ -27,10 +27,9 @@ public class ArrayFreq {
         int[] freq=new int[max-min+1];
 
        
-        for (int i : freq) {
+        for (int i : a) {
             freq[i-min]++;
         }
-
         System.out.println(Arrays.toString(freq));
 
     }
@@ -38,7 +37,7 @@ public class ArrayFreq {
 
     public static void main(String[] args) {
         
-int [] a={12,1,2,12,12,53,43,53,34};
+int [] a={8,10,8,11,10,11,12,11,12,11,8};
 frequency(a);
 
 
