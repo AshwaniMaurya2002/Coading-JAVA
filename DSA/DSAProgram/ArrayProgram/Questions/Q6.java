@@ -14,7 +14,6 @@ public class Q6 {
             a[i]=sum-a[i];
         }
         System.out.println("The new Array is"+ Arrays.toString(a));
-
     }
 
     public static void main(String[] args) {
