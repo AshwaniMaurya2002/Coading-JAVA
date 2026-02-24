@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 public class SelectoinSort {
     
     public static void Selection(int[] a){
@@ -8,13 +7,10 @@ public class SelectoinSort {
         for (int i = 0; i <n-1; i++) {
             int minIndex=i, minValue=a[i];
             for (int j = i+1; j < n; j++) {
-                if(a[i]<minValue){
+                if(a[j]<minValue){
                     minIndex=j;
                     minValue=a[j];
                 }
-
-
-                
             }
 
             // this is used For swapping;
