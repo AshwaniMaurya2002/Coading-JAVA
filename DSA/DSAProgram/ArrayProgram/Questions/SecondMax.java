@@ -9,7 +9,7 @@ public class SecondMax {
             if(i>max){
                 secondMax=max;
                 max=i;
-            }else if(i<max&&i!=secondMax){
+            }else if(i<max&& i>secondMax){
                 secondMax=i;
             }
         }
