@@ -1,6 +1,4 @@
 public class SecondMax {
-
-
     public static int secondMax(int[] a){
         long max=Long.MIN_VALUE;
         long secondMax=Long.MIN_VALUE;
