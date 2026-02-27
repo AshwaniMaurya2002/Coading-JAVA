@@ -25,7 +25,11 @@ public class MergeSort {
         }
         while(indx2<=end){
             merged[indx3++]=a[indx2++];
-            
+
+        }
+
+        for(int i=0,j=start;i<merged.length;i++,j++){
+            merged[i]=a[j];
         }
 
         
