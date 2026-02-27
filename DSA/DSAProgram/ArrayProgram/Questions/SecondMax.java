@@ -13,7 +13,6 @@ public class SecondMax {
         }
         return secondMax!=Long.MIN_VALUE?(int)secondMax:(int)max;
     }
-
     public static void main(String[] args) {
 
         int[] a={12,2,4,24,2,5,63,63,637,231,425,1000,1004,10002};
