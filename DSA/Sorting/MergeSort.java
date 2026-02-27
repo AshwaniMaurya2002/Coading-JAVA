@@ -13,7 +13,16 @@ public class MergeSort {
 
     public static void merge(int[]a ,int start,int mid,int end) {
         int[] merged=new int[end-start+1];
+        int indx1=start, indx2=mid+1, indx3=0;
+        if(a[indx1]<a[indx2]){
+            merged[indx3++]=a[indx1++];
+        }else
+            merged[indx3++]=a[indx2++];
         
+        while(indx1<=mid){
+            
+        }
+
         
     }
 
