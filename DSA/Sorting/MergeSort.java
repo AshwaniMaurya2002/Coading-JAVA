@@ -6,12 +6,14 @@ public class MergeSort {
             int mid=start+(end-start)/2;
             divide(a, start, mid);
             divide(a, mid+1, end);
-            merge(int[] a,int start,int mid,int end);
+            merge(a,start,mid,end);
         }
 
     }
 
-    public static void merge() {
+    public static void merge(int[]a ,int start,int mid,int end) {
+        int[] merged=new int[end-start+1];
+        
         
     }
 
