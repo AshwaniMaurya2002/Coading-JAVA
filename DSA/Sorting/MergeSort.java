@@ -11,6 +11,12 @@ public class MergeSort {
 
     }
 
-    pub
+    public static void merge() {
+        
+    }
+
+    public static void main(String[] args) {
+        
+    }
 
 }
