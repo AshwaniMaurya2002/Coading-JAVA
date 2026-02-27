@@ -20,6 +20,11 @@ public class MergeSort {
             merged[indx3++]=a[indx2++];
         
         while(indx1<=mid){
+            merged[indx3++]=a[indx1++];
+
+        }
+        while(indx2<=end){
+            merged[indx3++]=a[indx2++];
             
         }
 
