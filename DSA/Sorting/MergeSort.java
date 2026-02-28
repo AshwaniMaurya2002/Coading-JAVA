@@ -11,7 +11,6 @@ public class MergeSort {
             divide(a, mid + 1, end);
             merge(a, start, mid, end);
         }
-
     }
 
     public static void merge(int[] a, int start, int mid, int end) {
