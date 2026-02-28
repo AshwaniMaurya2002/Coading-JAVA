@@ -35,7 +35,6 @@ public class MergeSort {
         for (int i = 0, j = start; i < merged.length; i++, j++) {
             a[j]=merged[i];
         }
-
     }
 
     public static void main(String[] args) {
