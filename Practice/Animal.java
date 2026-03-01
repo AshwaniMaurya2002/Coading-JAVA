@@ -5,7 +5,6 @@ public class Animal {
         System.out.println("animal class");
     }
 
-
     
     
 }
