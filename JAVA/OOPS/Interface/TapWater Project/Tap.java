@@ -1,5 +1,8 @@
-public class Tap {
+public interface  Tap  {
 
-    
+ void switchON();
+
+ void switchOFF();
+
     
 }
