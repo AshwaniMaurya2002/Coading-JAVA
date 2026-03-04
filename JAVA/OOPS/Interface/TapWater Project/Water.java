@@ -1,4 +1,4 @@
-public interface  Water {
+public interface  Water extends Tap {
     
       void drink();
 }
