@@ -1,7 +1,6 @@
 import java.util.Arrays;
 
 public class SwapTwoNumbers {
-
     public static void swap(int[] p,int a,int b){
         int temp=a;
         a=b;
