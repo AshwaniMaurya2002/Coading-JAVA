@@ -17,5 +17,4 @@ public class BinarySearch {
         int[] a={1,2,5,6,8,44,356,674,999};
     System.out.println(  binarySearch(a, 44, 0, a.length-1));        
     }
-    
 }
