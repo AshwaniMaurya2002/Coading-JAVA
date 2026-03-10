@@ -1,6 +1,5 @@
 public class BinarySearch {
 
-
     public static int binarySearch(int []a,int target,int start,int end){
         if(start>end)
             return -1;
