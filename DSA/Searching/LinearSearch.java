@@ -14,7 +14,7 @@ class LinearSearch{
         
         int[] a={1,80,42,5,6,3,67,8,8,346,67,7,4,654,7,754,4,3646,634};
 
-        System.out.println(linearSearch(a, 66  ));
+        System.out.println(linearSearch(a, 67  ));
 
     }
 
