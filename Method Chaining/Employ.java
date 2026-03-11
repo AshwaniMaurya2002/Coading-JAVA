@@ -3,13 +3,27 @@ public class Employ {
     String name;
     int price;
 
+    public Employ() {
+    }
+
+    // public Employ(String name, int price) {
+    //     this.name = name;
+    //     this.price = price;
+    // }
+    @Override
+    public String toString() {
+        return name + price;
+    }
+
+  
+
     public  Employ setName(String name){
         this.name=name;
         return this;
     }
 
-        public  Employ setName(String name){
-        this.name=name;
+        public  Employ setPrice(int price){
+        this.price=price;
         return this;
     }
     
