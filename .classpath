@@ -3,5 +3,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="DSA/Searching"/>
 	<classpathentry kind="src" path="Method Chaining"/>
+	<classpathentry kind="src" path="Builder Pattern"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
