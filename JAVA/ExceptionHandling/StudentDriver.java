@@ -15,7 +15,6 @@ public class StudentDriver {
         // String s2=null;
 
         // System.out.println(s2.charAt(0));
-
         System.out.println("Enter a number");
         Scanner sc = new Scanner(System.in);
         byte b = sc.nextByte();
