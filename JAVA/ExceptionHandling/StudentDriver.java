@@ -11,7 +11,7 @@ public class StudentDriver {
         // Student student1 = new Student(2, "John");
 
         // System.out.println(student.name);
-
+//! null pointer exception given here 
         // String s2=null;
 
         // System.out.println(s2.charAt(0));
