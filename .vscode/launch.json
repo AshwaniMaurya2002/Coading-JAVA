@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StudentDriver",
+            "request": "launch",
+            "mainClass": "StudentDriver",
+            "projectName": "Coding"
+        },
+        {
+            "type": "java",
             "name": "EmployDriver",
             "request": "launch",
             "mainClass": "EmployDriver",
