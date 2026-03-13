@@ -6,7 +6,7 @@ public class ArithmeticExceptionProgram {
         try {
              System.out.println(12/0);
         } catch (Exception e) {
-            
+            e.getMessage("Divided by zero is not possible");
         }
        
 
