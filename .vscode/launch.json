@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArithmeticExceptionProgram",
+            "request": "launch",
+            "mainClass": "ArithmeticExceptionProgram",
+            "projectName": "Coding"
+        },
+        {
+            "type": "java",
             "name": "StudentDriver",
             "request": "launch",
             "mainClass": "StudentDriver",
