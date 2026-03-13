@@ -1,6 +1,5 @@
 public class ArithmeticExceptionProgram {
 
-
     public static void Operation(){
           try {
               System.out.println(12/0);
@@ -14,6 +13,7 @@ public class ArithmeticExceptionProgram {
     public static void main(String[] args) {
         
       Operation();
+    
 
     }
     
