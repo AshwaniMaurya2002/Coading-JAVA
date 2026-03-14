@@ -6,7 +6,9 @@ public class Program1 {
 @Override
     public String equal(Object obj){
 
-        
+        if(this==obj)
+            return true;
+
 
     }        ;
 
