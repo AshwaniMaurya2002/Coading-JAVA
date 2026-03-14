@@ -1,8 +1,20 @@
 public class Program1 {
 
 
-    public static void main(String[] args) {
+    String name;
+    int price;
+    int age;
 
+    public Program1() {
+    }
+
+    public Program1(String name, int price, int age) {
+        this.name = name;
+        this.price = price;
+        this.age = age;
+    }
+
+    
 @Override
     public String equal(Object obj){
 
@@ -10,7 +22,13 @@ public class Program1 {
             return true;
 
 
-    }        ;
+    }      
+    
+
+
+    public static void main(String[] args) {
+
+
 
         }
         
