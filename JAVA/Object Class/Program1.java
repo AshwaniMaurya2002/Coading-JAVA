@@ -16,11 +16,17 @@ public class Program1 {
 
     
 @Override
-    public String equal(Object obj){
+    public boolean  equal(Object obj){
 
         if(this==obj)
             return true;
 
+        else if(obj==null || this.getClass()!=obj.getClass())
+            return  false;
+
+        else
+            
+            return  
 
     }      
     
@@ -28,6 +34,9 @@ public class Program1 {
 
     public static void main(String[] args) {
 
+        Program1 p=new Program1();
+        Program1 p1=new Program1();
+        
 
 
         }
