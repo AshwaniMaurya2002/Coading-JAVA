@@ -24,7 +24,7 @@ public class Program1 {
 
         else
             
-            return  
+            return  this.price==obj.price &&
 
     }      
     
