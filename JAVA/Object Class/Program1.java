@@ -16,7 +16,7 @@ public class Program1 {
 
     
 @Override
-    public boolean  equal(Object obj){
+    public boolean  equals(Object obj){
 
         if(this==obj)
             return true;
