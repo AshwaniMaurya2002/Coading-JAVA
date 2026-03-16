@@ -12,6 +12,11 @@ public class Program1 {
         this.age = age;
     }
 
+    @Override
+    public int hashCode() {
+        return price;
+    }
+
     
 @Override
     public boolean  equals(Object obj){
@@ -24,7 +29,7 @@ public class Program1 {
 
         else
             
-            return  this.price==obj.price &&
+            return  this.price==obj.price && this.age=obj.age&& this.name==obj.name;
 
     }      
     
