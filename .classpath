@@ -5,5 +5,6 @@
 	<classpathentry kind="src" path="Method Chaining"/>
 	<classpathentry kind="src" path="Builder Pattern"/>
 	<classpathentry kind="src" path="JAVA/ExceptionHandling"/>
+	<classpathentry kind="src" path="JAVA/Object Class"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
