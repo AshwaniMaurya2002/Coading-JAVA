@@ -32,7 +32,6 @@ public class Program1 {
             return  this.price==other.price && this.age==other.age && this.name.equals(other.name);
         }
     }
-
     public static void main(String[] args) {
         Program1 p = new Program1("Ashwani",36,346);
         Program1 p1 = new Program1("Ashwani",536,346);
