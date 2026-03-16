@@ -28,24 +28,15 @@ public class Program1 {
             return  false;
 
         else
-            
-            return  this.price==obj.price && this.age=obj.age&& this.name==obj.name;
-
-    }      
-    
-
+        {
+            Program1 other = (Program1) obj;
+            return  this.price==other.price && this.age==other.age && this.name.equals(other.name);
+        }
+    }
 
     public static void main(String[] args) {
-
-        Program1 p=new Program1();
-        Program1 p1=new Program1();
-        
-
-
-        }
-        
-
-
+        Program1 p = new Program1();
+        Program1 p1 = new Program1();
     }
     
 }
