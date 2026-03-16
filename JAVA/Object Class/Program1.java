@@ -17,7 +17,6 @@ public class Program1 {
         return price;
     }
 
-    
 @Override
     public boolean  equals(Object obj){
 
