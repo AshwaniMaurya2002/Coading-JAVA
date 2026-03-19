@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReverseHalves",
+            "request": "launch",
+            "mainClass": "ReverseHalves",
+            "projectName": "Coding"
+        },
+        {
+            "type": "java",
+            "name": "Q17",
+            "request": "launch",
+            "mainClass": "Q17",
+            "projectName": "Coding"
+        },
+        {
+            "type": "java",
             "name": "Q19",
             "request": "launch",
             "mainClass": "Q19",
