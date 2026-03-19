@@ -9,12 +9,12 @@ public class Q19 {
         if(a.length!=b.length)
             return false;
 
-        while(a.length-1){
+        while(indx1<a.length){
             if(a[indx1++]!=b[indx2--])
                 return false;
-            
         }  
 
+        return  true;
     }
     
 
@@ -22,6 +22,9 @@ public class Q19 {
 
         int[] a={10 ,20 ,30, 40, 80, 70 ,25};
         int[] b={25, 70, 80, 40 ,30 ,20 ,10};
+
+        boolean ans=checkPalindrome(a, b);
+        System.out.println(ans);
         
     }
 }
