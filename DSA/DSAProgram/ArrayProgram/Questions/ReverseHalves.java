@@ -3,7 +3,7 @@ public class ReverseHalves {
         int arr[] = {10, 20, 30, 40, 50, 60, 70};
         int n = arr.length;
 
-        // Reverse first half
+
         for (int i = 0, j = n/2; i < j; i++, j--) {
             int temp = arr[i];
             arr[i] = arr[j];
