@@ -17,7 +17,6 @@ public class ReverseHalves {
             arr[j] = temp;
         }
 
-        // Print result
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
         }
