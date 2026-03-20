@@ -10,7 +10,7 @@ public class ReverseHalves {
             arr[j] = temp;
         }
 
-        // Reverse second half
+     
         for (int i = (n/2) + 1, j = n - 1; i < j; i++, j--) {
             int temp = arr[i];
             arr[i] = arr[j];
