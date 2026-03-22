@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "moveNegativeaToLeft",
+            "request": "launch",
+            "mainClass": "moveNegativeaToLeft",
+            "projectName": "Coding"
+        },
+        {
+            "type": "java",
             "name": "ReverseHalves",
             "request": "launch",
             "mainClass": "ReverseHalves",
