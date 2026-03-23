@@ -13,6 +13,7 @@ public class moveNegativeaToLeft {
             }
         }
     }
+    
 
     public static void main(String[] args) {
         int[] a={12,-12,23,2,4,-1,-53,5};
