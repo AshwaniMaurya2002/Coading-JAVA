@@ -16,7 +16,6 @@ public class findUnionOfArray {
             union.add(integer);
             
         }
-
         int[] result=new int[union.size()];
         int i=0;
         for (Integer integer : union) {
