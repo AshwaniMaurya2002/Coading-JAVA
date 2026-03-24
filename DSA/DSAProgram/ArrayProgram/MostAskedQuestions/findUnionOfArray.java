@@ -25,8 +25,6 @@ public class findUnionOfArray {
 
 
     }
-
-
     public static void main(String[] args) {
         int[] a={1,2,3,1,3,4,5};
         int[] b={4,5,6,7,52,1,8};
