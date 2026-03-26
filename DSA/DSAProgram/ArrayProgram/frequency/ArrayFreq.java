@@ -8,6 +8,7 @@ public class ArrayFreq {
         int min=a[0];
 
         for (int i : a) {
+            
             if(i>max)
                 max=i;
             else if(i<min)
@@ -16,14 +17,8 @@ public class ArrayFreq {
 
         /*
        ? if i is given
-       * index= i+min;
-
-       ?if value is given
-       * index=value-min;
-
+       * ind
         */
-
-
         int[] freq=new int[max-min+1];
 
        
