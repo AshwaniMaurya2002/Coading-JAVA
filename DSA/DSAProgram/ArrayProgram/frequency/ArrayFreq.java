@@ -15,7 +15,6 @@ public class ArrayFreq {
                 min=i;
         }
 
-
         int[] freq=new int[max-min+1];
 
        
