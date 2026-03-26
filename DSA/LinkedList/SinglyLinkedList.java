@@ -26,6 +26,16 @@ public class SinglyLinkedList {
         }
     }
 
-    public
+    public void printlist(){
+        Node temp=head;
+            if (temp == null) {
+        System.out.println("List is empty");
+    }
+        else  while(temp != null){
+            System.out.println(temp.val);
+              temp=temp.next;
+        }
+
+    }
 
 }
