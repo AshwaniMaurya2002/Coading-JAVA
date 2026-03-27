@@ -39,7 +39,7 @@ public class SinglyLinkedList {
     }
 
     public void addAtFirst(int val){
-        Node newNode=new Node(val)
+        Node newNode=new Node(val);
         if(head==null)
             head=newNode;
     }
