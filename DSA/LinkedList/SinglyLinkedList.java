@@ -50,12 +50,16 @@ public class SinglyLinkedList {
         }
     }
 
-
     public void addAtSpecific(int point,int val){
         Node newNode=new Node(val);
         Node temp=head;
         if(point<0&&point>=size){
             System.out.println("Not a valid point");
+        }
+        else{
+            for(int i=0;i<point;i++){
+                
+            }
         }
 
     }
