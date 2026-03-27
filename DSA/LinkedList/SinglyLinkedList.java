@@ -44,7 +44,8 @@ public class SinglyLinkedList {
             head=newNode;
         else 
         {
-           newNode= head.next;
+           newNode.next= head;
+           head=newNode;
         }
     }
 

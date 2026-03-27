@@ -5,6 +5,7 @@ public class Driver {
         SinglyLinkedList sl=new SinglyLinkedList();
         sl.add(12);
         sl.add(121);
+        sl.addAtFirst(89);
         sl.printlist();
     }
 }
