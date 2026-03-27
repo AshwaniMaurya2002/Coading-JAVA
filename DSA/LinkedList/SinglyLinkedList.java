@@ -42,6 +42,10 @@ public class SinglyLinkedList {
         Node newNode=new Node(val);
         if(head==null)
             head=newNode;
+        else 
+        {
+            head.next;
+        }
     }
 
 }
