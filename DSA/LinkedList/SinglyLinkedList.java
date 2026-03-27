@@ -1,7 +1,7 @@
 public class SinglyLinkedList {
 
     Node head;
-
+    int size=0;
    private  class Node {
         private  int val;
         private  Node next;
@@ -15,6 +15,7 @@ public class SinglyLinkedList {
     
     public void add(int val ){
         Node newNode=new Node(val);
+        size++;
         if(head==null)
           head=newNode;
         else{
@@ -47,6 +48,16 @@ public class SinglyLinkedList {
            newNode.next= head;
            head=newNode;
         }
+    }
+
+
+    public void addAtSpecific(int point,int val){
+        Node newNode=new Node(val);
+        Node temp=head;
+        if(point<0&&point>=size){
+            System.out.println("Not a valid point");
+        }
+
     }
 
 }
