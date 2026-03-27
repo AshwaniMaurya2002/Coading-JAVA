@@ -32,10 +32,16 @@ public class SinglyLinkedList {
         System.out.println("List is empty");
     }
         else  while(temp != null){
-            System.out.println(temp.val);
+            System.out.print(temp.val+"  ");
               temp=temp.next;
         }
 
+    }
+
+    public void addAtFirst(int val){
+        Node newNode=new Node(val)
+        if(head==null)
+            head=newNode;
     }
 
 }
