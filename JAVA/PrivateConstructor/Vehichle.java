@@ -12,5 +12,8 @@ public class Vehichle {
     public void drive(){
         System.out.println("drive");
     }
+    public void test(){
+        System.out.println("test vehicle");
+    }
     
 }
