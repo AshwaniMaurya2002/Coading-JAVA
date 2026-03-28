@@ -1,5 +1,6 @@
 public class Browser {
 
+    //! lazy beacause when we only then object is made
     private static Browser b=null;
 
     public Browser() {
