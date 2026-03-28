@@ -9,6 +9,10 @@ public class Vehichle {
         this.price = price;
     }
 
+    public Vehichle getInstance(){
+        
+    }
+
     public void drive(){
         System.out.println("drive");
     }
