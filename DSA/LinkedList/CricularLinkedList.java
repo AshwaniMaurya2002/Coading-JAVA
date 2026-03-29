@@ -37,7 +37,6 @@ public class CricularLinkedList {
     public void printLinkedList(){
         if(head==null){
             System.out.println("linked list is empty");
-            return;
         }
         else{
             Node temp=head;
