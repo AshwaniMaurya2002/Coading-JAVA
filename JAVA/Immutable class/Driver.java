@@ -1,4 +1,11 @@
 public class Driver {
-    Vehicle v =new Vehicle("TATA",120);
-    v.getBrand();
+    
+    public static void main(String[] args) {
+        
+        Vehicle v =new Vehicle("TATA",120);
+       System.out.println( v.getBrand());
+
+       System.out.println(v.getClass());
+    }
+   
 }
