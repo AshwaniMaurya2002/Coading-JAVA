@@ -23,7 +23,7 @@ public class CricularLinkedList {
             head=newNode;
         else{
             Node temp=head;
-            while(temp!=null){
+            while(temp.next!=null){
                 temp=temp.next;
 
             }
@@ -34,14 +34,34 @@ public class CricularLinkedList {
     
     }
 
-    
+    public void printLinkedList(){
+        if(head==null){
+            System.out.println("linked list is empty");
+            return;
+        }
+        else{
+            Node temp=head;
+            while(temp!=null){
+                System.out.println(temp.val);
+                temp=temp.next;
+            }
+        }
+    }
+
 
 
 
     public static void main(String[] args) {
 
         CricularLinkedList cl=new CricularLinkedList();
+        
         cl.add(12);
+        cl.add(123);
+        cl.add(432);
+        cl.add(12432);
+        
+
+        cl.printLinkedList();
         
     }
     
