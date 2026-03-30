@@ -9,8 +9,10 @@ public class Driver {
         NestedClass.Car nc=n.new Car();
         nc.brand="TATA";
         nc.hp=2420;
-        
 
+
+        NestedClass.Car.Tyre  nct=nc.new  Tyre();
+        nct.noOfTyre=5;
     }
     
 }

@@ -10,15 +10,15 @@ public class NestedClass {
         String brand;
         int hp;
 
-
+ class Tyre{
+        int noOfTyre;
+        
+    }
       
 
     }
 
 
-    class Tyre{
-        int noOfTyre;
-        
-    }
+   
     
 }
