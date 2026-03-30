@@ -6,7 +6,10 @@ public class Driver {
         n.rollNo=242;
         n.id=202;
 
-        NestedClass.Car nc=NestedClass.new Car();
+        NestedClass.Car nc=n.new Car();
+        nc.brand="TATA";
+        nc.hp=2420;
+        
 
     }
     
