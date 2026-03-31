@@ -58,10 +58,10 @@ public class SinglyLinkedList {
         }
         else{
             for(int i=0;i<point;i++){
-                
+
+                temp.next=newNode;
             }
         }
-
     }
 
 }
