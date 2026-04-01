@@ -1,5 +1,4 @@
 public class SinglyLinkedList {
-
     Node head;
     int size=0;
    private  class Node {
