@@ -10,8 +10,7 @@ public class SinglyLinkedList {
             Node next=null;
         }
 
-    }
-    
+    }   
     public void add(int val ){
         Node newNode=new Node(val);
         size++;
@@ -25,7 +24,6 @@ public class SinglyLinkedList {
             temp.next=newNode;
         }
     }
-
     public void printlist(){
         Node temp=head;
             if (temp == null) {
