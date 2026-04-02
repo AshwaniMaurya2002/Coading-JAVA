@@ -2,7 +2,6 @@ public class Maths {
     public static void add(int x,int y){
         System.out.println(x+y);
     }
-
     //change sequence 
     public static void add(double x,int y){
 
