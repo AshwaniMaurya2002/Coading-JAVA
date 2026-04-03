@@ -6,7 +6,6 @@ public class Maths {
     public static void add(double x,int y){
         System.out.println(x+y);
     }
-
     public static void add(int x,double  y){
         System.out.println(x+y);
     }
