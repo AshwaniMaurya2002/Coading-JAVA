@@ -14,6 +14,5 @@ public class Maths {
         System.out.println(x+y+z);
     }
 
-
-    
+ 
 }
