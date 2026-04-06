@@ -6,8 +6,6 @@ long nums=0;
     }
 
 
-
-
     public void  multithreading(){
        
         for(long i=0;i<nums;i++){
