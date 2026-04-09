@@ -5,8 +5,6 @@ public class Generics {
         G name;
         
     }
-
-
     public static void main(String[] args) {
         
 
