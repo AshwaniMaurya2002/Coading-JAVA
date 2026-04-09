@@ -1,7 +1,6 @@
 public class Generics {
 
 
-
     class Person <T,G>{
 
         T id;
