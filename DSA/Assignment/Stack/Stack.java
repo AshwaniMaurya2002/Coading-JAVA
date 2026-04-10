@@ -25,7 +25,19 @@ public class Stack {
         }
     }
 
+    public int pop(){
+        int ans;
+        if(top==null){
+            return -1;
+        }
+        else{
+             ans=top.val;
+            top=top.next;
+        }
+        return ans;
+    }
+
+    public 
 
 
-    
 }
