@@ -14,16 +14,18 @@ public class Stack {
         
     }
 
-    public void add(int val){
+    public void push(int val){
         Node newNode=new Node(val);
         if(top==null){
             top=newNode;
         }
         else{
-            Node temp=top;
-            while(temp.next!=null){
-                
-            }
+           newNode.next=top;
+           top=newNode;
         }
     }
+
+
+
+    
 }
