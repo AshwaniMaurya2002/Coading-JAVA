@@ -54,4 +54,15 @@ public class Stack {
 
 
 
+    public void printList(){
+        if(top==null)
+            System.out.println("Empty");
+        else{
+            Node temp=top;
+            while(temp!=null){
+                System.out.println(temp.val);
+                temp=temp.next;
+            }
+        }
+    }
 }
