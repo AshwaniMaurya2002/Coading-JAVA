@@ -37,7 +37,15 @@ public class Stack {
         return ans;
     }
 
-    public 
+    public int peek(){
+        if(top==null)
+            return -1;
+        else{
+            return top.val;
+        }
+    }
+
+    
 
 
 }
