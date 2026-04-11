@@ -12,8 +12,6 @@ public class Create {
         return id;
     }
 
-
-
     public String getName() {
         return name;
     }
