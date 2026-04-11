@@ -26,14 +26,11 @@ public class Stack {
     }
 
     public int pop(){
-        int ans;
         if(top==null){
-            return -1;
+            throw new java.util.EmptyStackException();
         }
-        else{
-             ans=top.val;
-            top=top.next;
-        }
+        int ans = top.val;
+        top = top.next;
         return ans;
     }
 
