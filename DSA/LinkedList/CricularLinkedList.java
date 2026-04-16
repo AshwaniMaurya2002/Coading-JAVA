@@ -1,4 +1,5 @@
-public class CricularLinkedList {
+public class 
+ {
 
 
     Node head;

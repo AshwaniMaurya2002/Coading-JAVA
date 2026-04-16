@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "moveZero",
+            "request": "launch",
+            "mainClass": "moveZero",
+            "projectName": "Coding"
+        },
+        {
+            "type": "java",
             "name": "moveNegativeaToLeft",
             "request": "launch",
             "mainClass": "moveNegativeaToLeft",
