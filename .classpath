@@ -7,5 +7,6 @@
 	<classpathentry kind="src" path="JAVA/ExceptionHandling"/>
 	<classpathentry kind="src" path="JAVA/Object Class"/>
 	<classpathentry kind="src" path="DSA/DSAProgram/ArrayProgram/Questions"/>
+	<classpathentry kind="src" path="JAVA/Singleton class/Lazy Instantiation"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
