@@ -6,6 +6,7 @@ public class First  extends Thread{
 
     public First() {
     }
+
     First(String name,int count){
 
         this.name=name;
@@ -18,6 +19,10 @@ public class First  extends Thread{
 
         count++;
 
+    }
+
+    public static void main(String[] args) {
+        First f1=new First();
     }
     
 }
