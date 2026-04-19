@@ -17,7 +17,7 @@ public class User<T> {
 
     public static void main(String[] args) {
         
-        User<Integer> u1=new User<>(123, 1234);
+        User<String> u1=new User<>("ashwani","maurya");
         System.out.println(u1);
 
     }
