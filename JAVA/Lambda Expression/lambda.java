@@ -1,10 +1,7 @@
 
-public class Lambda {
+public abstract  class Lambda {
     
 
-    public static void get(int a, int b){
-
-    }
-
+    public abstract void get(int a, int b);
 
 }
