@@ -2,6 +2,6 @@
 public abstract  class Lambda {
     
 
-    public abstract void get(int a, int b);
+    public abstract int get(int a, int b);
 
 }
