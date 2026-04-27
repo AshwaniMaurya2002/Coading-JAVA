@@ -1,7 +1,7 @@
 
-public abstract  class Lambda {
+public interface  Lambda {
     
-
-    public abstract int get(int a, int b);
+    
+    public  int get(int a, int b);
 
 }
