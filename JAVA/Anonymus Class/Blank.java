@@ -1,5 +1,6 @@
-public abstract  class   Blank{
+public  interface    Blank{
      
-    abstract int add(int a, int b);
+
+    void start();
 
 }
