@@ -1,5 +1,5 @@
-class Blank{
-    public static void main(String[] args) {
-        
-    }
+public abstract  class   Blank{
+     
+    abstract int add(int a, int b);
+
 }
