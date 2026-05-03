@@ -1,6 +1,6 @@
-public  interface    Blank{
+public  abstract  class     Blank{
      
 
-    void start();
+     abstract  void start();
 
 }
