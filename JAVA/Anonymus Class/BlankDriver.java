@@ -1,20 +1,16 @@
-
-
-abstract class Blank {
-    public abstract void start();
-}
-
-public class BlankDriver {
-
+abstract class BlankDriver extends Blank {
     public static void main(String[] args) {
-        
-        Blank b=new Blank(){
+        BlankDriver b = new BlankDriver() {
             @Override
-             public void start(){
-System.out.println("hello i am starting");
+            void start() {
+                System.out.println("Start method implemented in anonymous class.");
             }
         };
-          
+
+        b.start(); // calling the method
     }
-    
+}
+
+abstract class Blank {
+    abstract void start();
 }
