@@ -2,7 +2,6 @@ public class Program1 {
     String name;
     int price;
     int age;
-
     public Program1() {
     }
 
