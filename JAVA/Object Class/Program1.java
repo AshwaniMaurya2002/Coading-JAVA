@@ -4,7 +4,6 @@ public class Program1 {
     int age;
     public Program1() {
     }
-
     public Program1(String name, int price, int age) {
         this.name = name;
         this.price = price;
