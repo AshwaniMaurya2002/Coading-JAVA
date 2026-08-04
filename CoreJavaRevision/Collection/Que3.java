@@ -10,6 +10,6 @@ public class Que3 {
                                 h.put(102, "mohan");
                                 h.put(103, "rohan");
 
-                                System.out.println(h);
+                                System.out.println(h.get(103));
                 }
 }
