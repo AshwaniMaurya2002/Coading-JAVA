@@ -10,7 +10,9 @@ class Ques1 {
                                 h.put(2, "sumit");
                                 h.put(3, "Ashwani");
                                 h.put(3, "Rohan");
+                                h.put(5, "ashwaniii");
 
+                                System.out.println(h);
                                 
                                 
                 }
