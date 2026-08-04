@@ -1,8 +1,6 @@
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
 class Compa implements Comparable<Compa> {
                 int id;
                 String name;
@@ -25,8 +23,8 @@ class Compa implements Comparable<Compa> {
                                 return name + " (" + id + ")";
                 }
 
-}
-public class Main {
+                public class Main {
+                }
 
                 public static void main(String[] args) {
 
