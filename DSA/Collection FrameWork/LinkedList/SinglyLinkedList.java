@@ -1,9 +1,6 @@
 public class SinglyLinkedList {
 
-   
-    
-
-    public class Node{
+    public static  class Node {
         int data;
         Node next;
 
@@ -13,12 +10,12 @@ public class SinglyLinkedList {
         public Node(int data) {
             this.data = data;
         }
-      
+
     }
 
     public static void main(String[] args) {
-        
-      
 
+        Node n = new Node(12);
+        
     }
 }
