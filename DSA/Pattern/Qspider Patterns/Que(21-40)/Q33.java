@@ -1,6 +1,8 @@
+
 import java.util.Scanner;
 
 public class Q33 {
+
     public static void main(String[] args) {
         System.out.println("Enter the number of rows:");
         Scanner sc = new Scanner(System.in);
