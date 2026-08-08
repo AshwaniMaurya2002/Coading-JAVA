@@ -10,7 +10,6 @@ class rcDriver {
             }
 
         });
-
         Thread t2 = new Thread(() -> {
             for (int i = 0; i < 10000; i++) {
                 rc.increment();
@@ -18,7 +17,6 @@ class rcDriver {
             }
 
         });
-
         t1.start();
         t2.start();
         t1.join();
