@@ -1,6 +1,5 @@
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 public class ArrayList1 {
@@ -20,18 +19,28 @@ public class ArrayList1 {
 //             System.out.println(it.next());
 //         }
 //         System.out.println(Collections.max(list));
+//         int sum = 0;
+//         int count = 0;
+//         Iterator<Integer> it = list.iterator();
+//         while (it.hasNext()) {
+//             Integer elem = it.next();
+//             sum += elem;
+//             count++;
+//         }
+//         System.out.println(sum);
+//         System.out.println(sum / count);
+        int largest = Integer.MIN_VALUE;
+        int second = Integer.MIN_VALUE;
 
-        int sum = 0;
-        int count = 0;
-        Iterator<Integer> it = list.iterator();
-        while (it.hasNext()) {
-            Integer elem = it.next();
-            sum += elem;
-            count++;
+        for (Integer l : list) {
+            if (l > largest) {
+                second = largest;
+                largest = l;
+
+            }
 
         }
-        System.out.println(sum);
-        System.out.println(sum / count);
+        System.out.println(second);
 
     }
 
