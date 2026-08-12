@@ -29,19 +29,21 @@ public class ArrayList1 {
 //         }
 //         System.out.println(sum);
 //         System.out.println(sum / count);
-        int largest = Integer.MIN_VALUE;
-        int second = Integer.MIN_VALUE;
-
-        for (Integer l : list) {
-            if (l > largest) {
-                second = largest;
-                largest = l;
-
-            }
-
-        }
-        System.out.println(second);
-
+        // int largest = Integer.MIN_VALUE;
+        // int second = Integer.MIN_VALUE;
+        // for (Integer l : list) {
+        //     if (l > largest) {
+        //         second = largest;
+        //         largest = l;
+        //     } else if (l > second && l != largest) {
+        //         second = l;
+        //     }
+        // }
+        // // System.out.println(second);
+        // int s = 0;
+        // int e = list.get(list.size());
+        // while (list.get(s) < list.get(e)) {
+        // }
     }
 
 }
