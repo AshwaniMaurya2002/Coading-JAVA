@@ -10,12 +10,10 @@ public class streamapi {
 
 //         numbers.stream().filter(n -> n > 40).forEach(System.out::println);
 //         numbers.stream().filter(n -> n % 2 == 0).forEach(System.out::print);
-//         List<Integer> num = numbers.stream().map(n -> n * 10).collect(Collectors.toList());
+//         Set<Integer> num = numbers.stream().map(n -> n * 10).collect(Collectors.toSet());
 //         System.out.println(num);
 //         numbers.stream().sorted(Collections.reverseOrder()).forEach(System.out::println);
         int sum = numbers.stream().reduce(0, (a, b) -> a + b);
-
         System.out.println(sum);
-
     }
 }
