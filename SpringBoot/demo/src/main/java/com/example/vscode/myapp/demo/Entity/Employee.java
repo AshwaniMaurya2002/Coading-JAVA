@@ -1,64 +1,47 @@
 package com.example.vscode.myapp.demo.Entity;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "employee")
 public class Employee {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private int id;
 
     private String name;
-
     private String email;
 
-    private double salary;
+    public Employee() {
+    }
 
-    public Employee(Long id, String name, String email, double salary) {
+    public Employee(int id, String name, String email) {
         this.id = id;
         this.name = name;
         this.email = email;
-        this.salary = salary;
     }
 
-    public Long getId() {
-                return id;
+    public int getId() {
+        return id;
     }
 
-    public void setId(Long id) {
-                this.id = id;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {
-                return name;
+        return name;
     }
 
     public void setName(String name) {
-                this.name = name;
+        this.name = name;
     }
 
     public String getEmail() {
-                return email;
+        return email;
     }
 
     public void setEmail(String email) {
-                this.email = email;
+        this.email = email;
     }
-
-    public double getSalary() {
-                return salary;
-    }
-
-    public void setSalary(double salary) {
-                this.salary = salary;
-    }
-
-    
-
 }
