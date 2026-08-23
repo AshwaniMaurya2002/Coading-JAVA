@@ -1,4 +1,3 @@
-
 import java.util.HashMap;
 class HashMap1 {
                 public static void main(String[] args) {
