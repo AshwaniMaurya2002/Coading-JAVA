@@ -6,8 +6,6 @@ public class Employ {
     int age;
     String address;
 
-
-
     public Employ() {
     }
 
