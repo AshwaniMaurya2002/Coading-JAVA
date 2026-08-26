@@ -2,7 +2,6 @@ import java.util.HashMap;
 class HashMap1 {
                 public static void main(String[] args) {
 
-                    
                             HashMap<Integer, String> h = new HashMap<>();
 
                                 h.put(1, "ashwani");
