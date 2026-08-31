@@ -1,5 +1,5 @@
 public class Employ {
-    //mandatory
+    //mandator
     String name;
     int id;
 
