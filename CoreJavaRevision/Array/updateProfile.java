@@ -1,5 +1,5 @@
 
-public class updateProfile  {
+public class updateProfile {
 
 
 }
