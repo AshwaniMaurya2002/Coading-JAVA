@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class ZeroPay {
 
+
+
+                
+
     ArrayList<EmployeeData> list = new ArrayList<>();
     EmployeeData em = new EmployeeData();
 
