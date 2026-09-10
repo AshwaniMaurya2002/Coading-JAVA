@@ -6,7 +6,7 @@ public class ZeroPay {
 
 
 
-                
+
 
     ArrayList<EmployeeData> list = new ArrayList<>();
     EmployeeData em = new EmployeeData();
@@ -27,11 +27,11 @@ public class ZeroPay {
 
     }
 
-//     public static void getLogin(EmployeeData e) {
+    public static void getLogin(EmployeeData e) {
                 
                 
 
-//     }
+    }
 
 //     public static void updateProfile() {
 
