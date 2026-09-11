@@ -1,6 +1,5 @@
 
 public class EmployeeData {
-
     private String email;
     private String password;
     private int amout;
