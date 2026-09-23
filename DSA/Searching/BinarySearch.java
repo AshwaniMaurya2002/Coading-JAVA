@@ -11,7 +11,6 @@ public class BinarySearch {
         else
             return  binarySearch(a, target, mid+1, end);
     }
-    
     public static void main(String[] args) {
 
         int[] a={1,2,5,6,8,44,356,674,999};
