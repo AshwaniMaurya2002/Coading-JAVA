@@ -17,8 +17,6 @@ class  towerOfHanoi{
         toh(n-1, to,from,aux);
 
     }
-
-
     public static void main(String[] args) {
         System.out.println("Enter the NUmber of Disks");
         Scanner sc=new Scanner(System.in);
