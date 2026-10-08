@@ -2,11 +2,9 @@
 class app {
 
     app() {
-
         System.out.println("hello bro");
 
     }
-
     public void recursive(int a) {
 
         System.out.println("i am from function");
