@@ -1,6 +1,5 @@
 
 class app {
-
     app() {
         System.out.println("hello bro");
 
